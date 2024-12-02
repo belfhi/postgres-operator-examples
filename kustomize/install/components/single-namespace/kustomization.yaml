@@ -12,6 +12,7 @@ patches:
     - { op: replace, path: /roleRef/kind, value: Role }
 - target:
     kind: Deployment
+    name: pgo
   patch: |-
     kind: Deployment
     metadata: { name: ignored }
